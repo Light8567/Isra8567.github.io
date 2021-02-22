@@ -1,0 +1,281 @@
+*{ /* Se realiza para que las medidas sean standard en todos las pantallas */
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body {
+    background-color: grey;
+    background: url(img/Birth-by-Sleep-Wallpapers-Kingdom-Hearts-Birth-by-Sleep-.jpg);
+}
+
+.cajaheader{
+    width: 90%;
+    margin: auto;
+    background-color: black;
+    width: 1000px;
+    height: 40px;
+}
+
+header{
+    padding-top: 50px;
+    padding-left: 210px;
+    padding-right: 210px;
+    padding-bottom: 5px;
+
+}
+.logo{
+    font-family: cursive;
+    color: white;
+    font-size: x-large
+}
+div.cajaheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header nav a {
+    color: rgb(187, 187, 187);
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.active {
+    color: white;
+}
+
+/* Trabajamos con el inicio, debajo del header */
+.cajadesplegable{
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+/*Aqui empezamos con el desplegable*/
+
+ul, ol{
+    list-style: none;
+}
+
+.ull li a{
+    background-color: black;
+    color:white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    
+}
+
+.ull li a:hover{
+    background-color: #434343; /* Para que al marcar cambie a otro negro */
+}
+
+.ull > li{
+    float: left;
+}
+
+.ull li ul{
+    display: none;
+    position: absolute;
+    
+}
+
+.ull li:hover > ul{
+    display: block;
+}
+
+div.cajadesplegable{
+    padding-left: 120px;
+    padding-right: 120px;
+    width: max-content;
+    
+}
+li.obj-desplegable{
+    width: 250px;
+    height: auto;
+}
+footer{
+    background: #111;
+    height: auto;
+    width: 100%;
+    font-family: "Opens Sans";
+    color: #fff;
+}
+.foot h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.foot p{
+    max-width: 500px;
+    margin: 20px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.redes{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem;
+}
+.redes li{
+    margin: 0 10px;
+}
+.redes a{
+    color: #fff;
+    text-decoration: none;
+}
+.redes a i{
+    font-size: 1.1rem;
+}
+.redes a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: azure;
+}
+
+.productos{
+    width: 1000px;
+    margin: auto;
+}
+/* Productos */
+.titulotop{
+    padding-bottom: 10px;
+  }
+
+  .top{
+    
+    margin-left: 260px;
+    width: 1000px;
+    height: 355px;
+    display: flex;
+  }
+  
+  .conte{
+    height: 330px;
+    width: 225px;
+    box-shadow:0 0 7px #111 ;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    
+}
+.conte .card{
+    height: 130px;
+    width: 100%;
+    margin-bottom: 110px;
+}
+.card img{
+    margin: auto;
+    display: block;
+}
+.conte .stromtroper img{
+    height: 190px;
+    width: 166px;
+    padding-top: 30px;
+}
+.conte .stromtroper{
+     background-color: #111;
+}
+.conte .iron-man{
+    background-color: #6A0C0B;
+}
+.conte .spider-man{
+    background-color:#B11313;
+}
+.conte .iron-man img{
+    height: 330px;
+    width: 230px;
+}
+.conte .spider-man img{
+    height: 330px;
+    width: 300px;
+}
+.informacion{
+    height: 30px;
+    width: 100%;
+}
+.informacion h1{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+    margin-bottom: -10px;
+}
+.informacion p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: .9em;
+    color: #555;
+}
+.precio {
+    height:50px;
+    width: 85%;
+    margin: auto;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-precio{
+    width: 80px;
+}
+ .precio1{
+    color: red;
+    font-size: .8em;
+}
+.precio .precio2{
+    font-size: 1.5em;
+}
+.shoping{
+    font-size: 1.5em;
+    color: #555;
+}
+
+@media (max-width:320px)
+{
+    .conte{
+        width: 100%;
+        margin: 30px 0;
+    }
+}
+@media (max-width:600px)
+{
+    .conte{
+        width: 100%;
+        margin: 30px 0;
+    }
+}
+
+@media (max-width:700px)
+{
+    .conte{
+        width: 80%;
+        margin: 30px 0;
+    }
+}
+
+@media (max-width:900px)
+{
+    .conte{
+        width: 40%;
+        margin: 30px 20px;
+    }
+}
